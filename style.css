@@ -1,0 +1,53 @@
+/* Style this form to help out conversion rate! */
+
+/* All of the elements are in a row
+
+You'll need to write the CSS selectors and rules with the properties described in the comments below. 
+
+Be sure to refresh an look at the results with each step.  */
+
+/* -------------------------------------- */
+
+/* Style the form, it should display its children with flex, direction column */
+
+form {
+    /* display flex adds content on the main axis */
+    display: flex;
+    /* but you can change its direction using flex-direction column */
+    flex-direction: column;
+  }
+  
+  
+  /* Style the labels, they should display their children with flex, in a column. Add a margin of 1em */
+  label {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+  }
+  
+  
+  
+  
+  /* Style the inputs, they should have 0.5em padding and a border 1px solid. Add margin 0.5em on the top and bottom and 0 left and right. */
+  
+  input {
+    padding: 0.5em;
+    border: 1px solid;
+    margin: 0.5em 0.5em 0 0;
+  }
+  
+  
+  
+  /* Style the button Width 100px, padding 0.5em. Border none. Background color of tomato, font size 1em, color of white, margin 1em, and align self of flex-end. */
+  
+  button {
+    width: 100px;
+    padding: 0.5em;
+    border: none;
+    background-color: tomato;
+    font-size: 1em;
+    color: white;
+    margin: 1em;
+    align-self: flex-end;
+  }
+
